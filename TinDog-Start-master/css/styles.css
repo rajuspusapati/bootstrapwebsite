@@ -1,0 +1,156 @@
+#title {
+  background-color: #d8345f;
+}
+
+body {
+  font-family: 'Montserrat-black', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 5% 5%;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 20px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-lite"
+}
+
+.download-button {
+  padding: 10px;
+  margin-top: 20px;
+  align-self: center;
+  margin-left: 25px;
+}
+
+.icon {
+  color: #d8345f;
+  padding-bottom: 10px;
+}
+
+.icon:hover {
+  color: #e58a8a;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.feature-box {
+  margin: 5% 0;
+}
+
+p {
+  color: grey;
+}
+
+#testimonials {
+  background-color: #e58a8a;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7%;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #e58a8a;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 60px;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 5%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.phone-image {
+  width: 40%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  .phone-image {
+    width: 40%;
+    position: static;
+    right: 30%;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+
+}
+
+
+
+#cta{
+  background-color: #d8345f;
+  text-align: center;
+  padding:5% 0 5%;
+  color: #fff;
+  font-family: "Montserrat-dark";
+  font-weight: bold;
+}
+
+#footer{
+  text-align: center;
+}
